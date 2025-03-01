@@ -1,0 +1,20 @@
+    VIDEO 85
+steps to run the server:
+node .\server.js
+npm init to create package
+npm init -y to create package with default values
+npm instal <packageName> to install a package
+npm install to install all the packages in the package.json file
+
+
+    VIDEO 86
+npm install --global <packageName> to install a package globally i.e not for just this project but entire system
+nodemon to restart the server automatically when changes are made to the file
+nodemon <filename> to run the server using nodemon
+nvm use <version> to switch between node versions
+import http from 'http'; to import http module
+two types of exports: named exports and default exports
+named exports: export {name1, name2, ...} from 'module'; import {name1, name2, ...} from 'module';
+default exports: export default name; import name (can be imported as any name) from 'module';
+TO make switches between commonjs and module you to edit type in package.json below main [type : module,]
+Commonjs automatically wraps variable names like exports, require, module, _filename, _dirname in the function
