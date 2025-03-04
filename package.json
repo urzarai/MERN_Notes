@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This project will have all the notes and concepts related to the leaarnings of backend from code with Harry backend course",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"

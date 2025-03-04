@@ -1,0 +1,20 @@
+Write a Node.js program to clear clutter inside  of a directory and organize the contents of the directory into different folders
+
+List of files:
+1.name.jpg
+2.name.png
+3.this.pdf
+4.harry.zip
+5.Rohan.zip
+6.cat.jpg
+
+Above mentioned files become:
+jpg/name.jpg, jpg/cat.jpg
+png/name.png
+pdf/this.pdf
+zip/harry.zip, zip/Rohan.zip
+
+
+SOLUTION:
+Specify all the extensions used in the folder
+Make folder for each extension and put respective files in these folders
